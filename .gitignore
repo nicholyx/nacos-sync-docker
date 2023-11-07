@@ -1,0 +1,52 @@
+### Project ###
+
+
+### Gradle ###
+.gradle
+build/
+/.build-cache
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/.flattened-pom.xml
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+**/src/main/generated/
+**/src/test/generated/
+
+
+### VS Code ###
+.vscode/
+
+
+### Mac OS ###
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
